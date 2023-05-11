@@ -1,0 +1,144 @@
+<html>
+<head><title>Ass 4</title>
+<style>
+body{
+background-color:black;
+}
+
+ul.navbar li{
+  display: inline;
+  list-style-type: none;
+  padding: 8px;
+  font-size: 14px;
+}
+ 
+ul.navbar li a{
+color:black;
+dispaly:block;
+text-align:center;
+padding:80px;
+text-decoration:none;
+width:100px;
+}
+
+ul.navbar li a:hover{
+  color:blue;
+}
+
+
+#one{
+float:left;
+width: 100%;
+background-color:white;
+}
+
+#two{
+
+float:left;  
+background:black; 
+color:white;
+width:36%;
+font-size:20; 
+height:670px;
+
+}
+
+
+#subtwo{
+padding:5px;
+}
+
+
+#three{
+
+float:left;  
+background:Gray; 
+width:28%;
+height:670px; 
+}
+
+#three img{
+border:9px solid white;
+}
+
+
+#four{
+
+float:right; 
+background:black;
+color:white; 
+width:36%; 
+height:670px;
+font-size:20;
+}
+#four img{
+border:9px solid Lightgray;
+}
+</style>
+</head>
+
+
+<body>
+<img src="img19.jpg" height="600" width="1340">
+<div id="one">
+ <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About</a></li>
+
+     </ul>
+</div>
+
+<div id="two"> <h2>WELCOME TO HOME DECOR</h2>
+<p id="subtwo">Interior design is the art and science of enhancing the interior of a building to achieve a healthier and more aesthetically pleasing environment for the people using the space</p>
+ 
+<h2> Photographers</h2>
+<p id="subthree">A professional photographer is likely to take photographs for a session  by salary   use of those photographs.While most photographers specialize in one or two different types of photography experimenting with various photography styles can help to expand your skill set.</p>
+
+<ul>
+  <li> Fashion</li>
+  <li> Still Life  </li>
+   <li> Editorial </li>
+   <li> Interior  </li>
+   <li> WildLife  </li>
+  <li> Landscape </li>
+  <li>Architectural</li>
+ <li> Photojournalism </li>
+</ul>
+</div>
+
+<div id="three">
+<h2 style="color:white";>Latest Photos</h2>
+<img src="img13.jpg" width="100" height="100"/>
+<img src="img5.jpg" width="100" height="100"/>
+<img src="img6.jpg" width="100" height="100"/>
+<img src="port2.jpg" width="100" height="100"/>
+<img src="port3.jpg" width="100" height="100"/>
+<img src="port4.jpg" width="100" height="100"/>
+<img src="port5.jpg" width="100" height="100"/>
+<img src="port6.gif" width="100" height="100"/>
+<img src="port7.jpg" width="100" height="100"/>
+
+<h2 style="color:white";> New Photos</h2>
+<img src="port8.jpg" width="100" height="100"/>
+<img src="port9.jpg" width="100" height="100"/>
+<img src="port10.jpg" width="100" height="100"/>
+</div>
+ 
+<div id="four">
+<h2 style="color:white";>Portfolio</h2>
+<img src="port1.jpg" width="470" height="100"/>
+<p>A portfolio is a collection of financial investments like stocks, bonds, commodities, cash, and cash equivalents, including closed-end funds and exchange-traded funds (ETFs).</p>
+<p>You may choose to hold and manage your portfolio yourself, or you may allow a money manager.</p>
+<h2 style="color:white";>Contact</h2>
+<img src="port.jpg" width="470" height="100"/>
+<p>11-22 Home Decorator<br>
+Tel: 0333-1111111<br>
+Fax:+1-212-9876543<br>
+</p>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<html><head>
+<title>webpage</title>
+</head>
+
+<body>
+<table border="1" height="300" width="1340" id="top">
+
+<tbody><tr>
+  <td width="400" height="150"><img src="home24.png" width="300" height="150"></td>
+    
+  <td style="background-color: cyan;" colspan="4"><h1 align="center"><b><u> THE HOME DECOR</u></b> </h1> </td>
+</tr>
+
+
+<tr>
+    <td width="300" height="150" rowspan="4" align="right">
+     <a href="https://www.google.com" target="_blank" align="right">googlelink</a><br>
+     <a href="https://www.numl.edu.pk" target="_blank">numllink</a><br>
+     <a href="https://www.twitter.com" target="_blank">twitterlink</a><br>
+     <a href="https://www.yahoo.com" target="_blank">yahoolink</a><br>
+    </td>
+    <td width="300" height="150" colspan="2"><img src="home25.jpg" width="510" height="300"></td>
+    <td width="300" height="150" colspan="2"><img src="home27.jpg" width="510" height="300"></td>
+</tr>
+
+
+
+
+<tr>
+
+    <td width="300" height="150" colspan="2"><img src="home21.jpg" width="510" height="300"></td>
+   <td width="300" height="150" colspan="2"> <img src="home22.jpg" width="510" height="300"></td>
+</tr>
+
+
+
+<tr>
+    
+    <td width="300" height="150" colspan="2"><img src="home18.jpg" width="510" height="300"></td>
+    <td width="300" height="150" colspan="2"><img src="home23.jpg" width="510" height="300"></td>
+</tr>
+
+
+<tr>
+    
+    <td width="300" height="150" colspan="2"><img src="home13.jpg" width="510" height="300"></td>
+    <td width="300" height="150" colspan="2"><img src="home14.jpg" width="510" height="300"></td>
+</tr>
+
+
+
+
+
+<tr>
+  <td width="300" height="150" colspan="4" align="right">
+<h2><b><u><mark>CONTACT US</mark></u></b></h2>
+    <h3>Sitara Irum </h3>
+   <h3>Roll no :2131</h3><h3>
+    
+    <a href="#top">click here to move top of page</a>
+
+
+
+ </td>
+</tr>
+
+
+
+
+
+
+</tbody></table>
+
+
+</body></html>

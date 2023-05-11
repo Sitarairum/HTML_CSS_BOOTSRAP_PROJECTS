@@ -1,0 +1,191 @@
+
+<html>
+<head>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+</script>
+<!--<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+<style>
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+    /* Control buttons  */
+    /* Previous button  */
+    /* Next button  */
+    /* Changes the position of the indicators */
+    /* Changes the color of the indicators */
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    border: 4px solid #CCC;
+    border-radius: 50px;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all 0.2s;
+}
+#quote-carousel .carousel-indicators .active {
+    background: #333333;
+    width: 128px;
+    height: 128px;
+    border-radius: 100px;
+    border-color: #f33;
+    opacity: 1;
+    overflow: hidden;
+}
+.carousel-inner {
+    min-height: 300px;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0 ;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+} 
+
+
+
+</style> 
+
+</head>
+<body>
+
+<div class="container">
+<div class="row bg-secondary " >
+                   
+                        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                            <!-- Bottom Carousel Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#quote-carousel" data-slide-to="0"><img src="img1.png" class="d-block img-fluid">
+                                </li>
+                                <li data-target="#quote-carousel" data-slide-to="1" ><img src="img2.png" class="d-block img-fluid">
+                                </li>
+                                <li data-target="#quote-carousel" data-slide-to="2" ><img src="img4.png" class="d-block img-fluid">
+                                </li>
+                            </ol>
+                        
+
+                            <!-- Carousel Slides / Quotes -->
+                            <div class="carousel-inner text-center">
+
+                                <!-- Quote 1 -->
+                                <div class="carousel-item active">
+                                    <blockquote class="bg-light ml-5 "  style="width:700px;">
+                                        <div class="row">
+                                            <div class="col-sm-8  col-sm-offset-2 text-center  p-3">
+
+                                                <p >Miss Maleeha Wajdan Completed BSCS from National Univeristy of Modern languages (NUML) she is also a project management professional. 
+                                                she has more than 6 years of experience in management Industry. she is also managing in-house innovations, business planning and implementation.</p>
+                                                <small>Miss Maleeha wajdan Founder</small>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                                <!-- Quote 2 -->
+                                <div class="carousel-item">
+                                    <blockquote class="bg-light ml-5 "  style="width:700px;">
+                                        <div class="row">
+                                        <div class="col-sm-8 col-sm-offset-2 text-center  p-3">
+
+                                                <p>Miss Amreha Aliyan done her Mphil from  International Islamic  University Islamabad and a project management professional. 
+                                                she has more than 9 years of experience in Telecom and Datacom industries covering complete SDLC. she is also expert in business planning and implementation.</p>
+                                                <small>Miss Amreha Aliyan Director </small>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                                <!-- Quote 3 -->
+                                <div class="carousel-item">
+                                    <blockquote class="bg-light ml-5 "  style="width:700px;">
+                                    
+                                        <div class="row">
+                                        <div class="col-sm-8 col-sm-offset-2 text-center  p-3">
+
+                                                <p>Miss Dabeesa Arham completed her  Bachelors from National Univeristy of Science and Technology (NUST) .
+                                                she has more than 5 years of experience in Telecom and Datacom industries covering complete SDLC. He is managing in-house innovations, business planning.</p>
+                                                <small>Miss Dabeesa Arham CEO</small>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid ml-5">                       
+
+                    <div class="row mt-5">
+
+            <div class="card-deck">
+                <div class="card" >
+                    <div class= "col-sm">
+                        <img class="card-img-top mt-3" src="img1.png">
+                    
+                    <div class="card-body">
+                    <div class="header  text-center p-2" style=" background-color:LightGrey;">Miss Maleeha Wajdan</div>
+                    
+                    </div>
+                </div>
+                    
+                </div>
+                <div class="card" >
+                    <div class="col-sm">
+                         <img class="card-img-top mt-3" src="img2.png">
+                    <div class="card-body">
+                      <div class="header text-center  p-2" style=" background-color:LightGrey;">Miss Amreha Wajdan</div>
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+                <div class="card">
+                    <div class="col-sm">
+                        <img class="card-img-top mt-3" src="img4.png">
+                    <div class="card-body">
+                        <div class="header  text-center p-2" style= "background-color:LightGrey;">Miss Dabeesa Arham</div>
+                       
+
+                        </div>
+                </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</div>
+</body>
+
+
+</html>        
+
+
+

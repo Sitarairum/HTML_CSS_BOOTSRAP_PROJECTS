@@ -1,0 +1,158 @@
+<html>
+<head>
+<style>
+body
+{
+background-color:RoyalBlue;
+}
+
+.main{
+margin-top:100px;
+margin-left:150px;
+margin-right:20px;
+
+
+}
+
+.left {
+  background-color: DarkBlue;
+  color:white;
+  padding:50px;
+  float:left;
+  width:40%;
+  
+}
+
+.right {
+  background-color: DarkBlue;
+  padding:50px;
+  color:white;
+  float:left;
+  width:40%; 
+
+}
+
+
+#logsign{
+  background-color: Hotpink;
+  padding:10px;
+  color:white;
+  float:center;
+  width:100%; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px solid gray;
+  border-radius: 9px;
+ box-sizing: border-box;
+}
+
+input[type=checkbox]{
+  
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px solid gray;
+  border-radius: 9px;
+ box-sizing: border-box;
+}
+input[type=mail]{
+  
+  padding: 12px 20px;
+   width: 100%;
+  margin: 8px 0;
+  border: 2px solid gray;
+  border-radius: 9px;
+ box-sizing: border-box;
+}
+input[type=number]{
+  
+  padding: 12px 20px;
+   width: 100%;
+  margin: 8px 0;
+  border: 2px solid gray;
+  border-radius: 9px;
+ box-sizing: border-box;
+}
+input[type=password]{
+  
+  padding: 12px 20px;
+   width: 100%;
+  margin: 8px 0;
+  border: 2px solid gray;
+  border-radius: 9px;
+ box-sizing: border-box;
+}
+input[type=button]{
+  
+  padding: 12px 40px;
+   width: 100%;
+  margin: 8px 0;
+  border: 2px solid gray;
+  border-radius: 9px;
+ box-sizing: border-box;
+}
+
+
+
+
+
+
+</style>
+ </head>
+<body>
+<div class="main">
+<div class="left">
+<p id="leftone" align="center"> <b>Login Form </b></p>
+<img src="images1.png" alt="image icon" class="center"><br>
+
+<form action= " ">
+<input type="text" id="fname" name="Username" placeholder="Mobile or Email"><br>
+<input type="text" id="lname" name="Password" placeholder="Password"><br>
+<label><input type = "checkbox" name=" " checked="checked"/> Remember me </label>
+<p align = "right"> Forgot Password? </p>
+<button id = "logsign"> Login </button>
+<p align ="center" > Create a New Account </p><br>
+
+
+</form>
+</div>
+
+
+<div class="right">
+<p id="rightone" align="center"><b> Sign Up Form</b> </p>
+<form action= " ">
+<input type="text" id="fname" name="firstname" placeholder="First name"><br>
+<input type="text" id="lname" name="Last name" placeholder="Last name"><br>
+<input type="mail" id="mail" name="mail" placeholder="Me@example.com"><br>
+<input type="number" id="number" name="number" placeholder="Please enter a phone number"><br>
+<input type="password" id="password" name="pwd" placeholder="Password"><br>
+<input type="password" id="password" name="pwd" placeholder=" Confirm Password"><br>
+<label><input type="checkbox" name=" " checked="checked"/> I agree to Terms and Privacy Policy </label><br>
+<p>
+<button id = "logsign"> Sign Up</button>
+</p>
+</form>
+</div>
+
+
+
+</body>
+
+
+</html>
